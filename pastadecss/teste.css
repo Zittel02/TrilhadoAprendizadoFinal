@@ -1,0 +1,83 @@
+body {
+      margin: 0 auto; 
+      font-family:'Times New Roman', Times, serif;
+      background-color: #000000;
+    }
+  
+    header{
+      background-image: url("../img/backgroundhead.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family:'Times New Roman', Times, serif    
+    }
+    
+    li a, .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+    }
+    
+    li a:hover, .dropdown:hover {
+      background-color: white;
+      color: #080808;
+      border-radius: 100%;
+    }
+    .atv{
+      font-size: large;
+      font-family:'Times New Roman', Times, serif;
+      justify-content: space-evenly;
+      margin:3% 5% 3% 5%;
+      background-color: #110000;
+      padding:2%;
+      text-align:center;
+    }
+    li a:hover, .notdropdn{
+      border-radius: 100%;
+    }
+
+  
+    nav{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 15px 60px 15px 60px;
+    }
+  
+    .inicial{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      height: 100vh;
+      padding: 0% 20% 0% 20%;
+    }
+  
+  .imageminicial{
+    padding: 20%;
+  }
+    .textoinicial{
+      color: #f1f1f1;
+      width: 60%;
+    }
+
+  
+    .corpotexto{
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+      padding: 0% 20% 0% 20%;
+      
+    }
+  
+  
+    footer{
+      color: #d6d6d6;
+      padding: 50px;
+      text-align: center;
+    }
+  
+  
